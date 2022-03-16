@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="ar" dir="rtl">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
     <title>الفقه</title>
     <script src="../Js/bootstrap.bundle.min.js" ></script>
     <script src="../Js/jquery-3.3.1.slim.min.js" ></script>
@@ -23,12 +22,14 @@
       }    
   @font-face {
         font-family: FC35544;
-src: url('../Fonts/FC74217.woff2') format('woff2'),
+        src: url('../Fonts/FC74217.woff2') format('woff2');   
+        src: url('../Fonts/FC74217.woff') format('woff');   
         font-weight:normal;
       }
   @font-face {
         font-family: FC35544;
-	src: url('../Fonts/cb582b0a-a10f-406c-91b3-3f11d9848c3f.woff2') format('woff2'),
+        src: url('../Fonts/FC29469.woff2') format('woff2');     
+        src: url('../Fonts/FC29469.woff') format('woff');   
         font-weight:bold;
       }    
 
@@ -41,23 +42,9 @@ src: url('../Fonts/FC74217.woff2') format('woff2'),
 }
     *{
         text-align: justify !important;
-        font-family: "FC35544", sans-serif;
+        font-family: FC35544;
 
     }
-	body
-{
-    -webkit-animation-duration: 0.1s;
-	-webkit-animation-name: fontfix;
-	-webkit-animation-iteration-count: 1;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-delay: 0.1s;
-}
-
-@-webkit-keyframes fontfix{
-	from{ 	opacity: 1; }
-	to{	opacity: 1; }
-}
-
     .text-dark {
     color: #343a40!important;
     font-family: FC35544;
@@ -100,8 +87,9 @@ src: url('../Fonts/FC74217.woff2') format('woff2'),
   </nav>
 </header>
 <body>
-<h1 style=" font-weight: bold; text-align: center !important; font-size: 150px; "> كتب الفقه</h1>
-	<div class="container">
+  <div spellcheck="false" class="text">
+    كتب الفقه</div>
+    <div class="container">
         <!-- For demo purpose -->
         <div class="row">
           <div class="col-lg-9 mx-auto">
