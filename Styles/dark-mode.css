@@ -1,9 +1,13 @@
 [data-theme="dark"] .navbar-light .navbar-toggler-icon {
     background-image: url(../Styles/Untitled-2.png);
 }
-[data-theme="dark"] a.text-dark:focus, a.text-dark:hover {
+[data-theme="dark"] a.text-dark:focus {
     color: #dbdbdb!important;
 }
+[data-theme="dark"] a.text-dark:hover {
+    color: #dbdbdb!important;
+}
+
 [data-theme="dark"] .navbar-light .navbar-toggler {
     color: rgb(255 255 255 / 50%);
     border-color: rgb(255 255 255);
