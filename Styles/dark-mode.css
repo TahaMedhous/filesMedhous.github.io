@@ -1,4 +1,12 @@
+[data-theme="dark"] .navbar-light .navbar-toggler-icon {
+    background-image: url(../Styles/Untitled-2.png);
+}
+[data-theme="dark"] .navbar-light .navbar-toggler {
+    color: rgb(255 255 255 / 50%);
+    border-color: rgb(255 255 255);
+}
 [data-theme="dark"] {
+color: #ffffff;
     background-color: #3a3e44!important;
 }
 [data-theme="dark"] .text-dark {
